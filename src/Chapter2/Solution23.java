@@ -11,13 +11,13 @@ public class Solution23 {
         ListNode head = sol23.createList(values);
         sol23.printList(head);
         ListNode midNode = sol23.getKthNode(head, 4);
-        sol23.deleteNode(midNode);
+        sol23.deleteMidNode(midNode);
         sol23.printList(head);
     }
 
     // copy val of the next node, and then delete next node.
     // (only valid when node is in the middle of a list.)
-    public void deleteNode(ListNode node) {
+    public void deleteMidNode(ListNode node) {
         node.val = node.next.val;
         node.next = node.next.next;
     }
