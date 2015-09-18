@@ -1,7 +1,5 @@
 package Chapter2;
 
-import java.util.List;
-
 /**
  * Created by Hao on 9/18/15.
  */
