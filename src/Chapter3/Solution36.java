@@ -1,6 +1,7 @@
 package Chapter3;
 
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 /**
  * Created by Hao on 9/19/15.
@@ -57,8 +58,9 @@ public class Solution36 {
 
         @Override public String toString() {
             String str = "";
-            for (int pos = 0; pos < list.size(); ++pos) {
-                str += list.get(pos) + " ";
+            ListIterator<T> iter = list.listIterator();
+            while (iter.hasNext()) {
+                str += iter.next() + " ";
             }
             return str;
         }
