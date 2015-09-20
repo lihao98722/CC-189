@@ -23,14 +23,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution45.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution45.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution45.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34545454">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="e#855#856#0" expanded="true" />
                 <element signature="e#893#894#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution46.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution46.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6545454">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding>
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1304#1305#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/Chapter4/Solution43.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution44.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution45.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Solution46.java" />
       </list>
     </option>
   </component>
@@ -568,12 +582,12 @@
       <workItem from="1442630370608" duration="15244000" />
       <workItem from="1442701097851" duration="10936000" />
       <workItem from="1442724848498" duration="28000" />
-      <workItem from="1442725448703" duration="166000" />
+      <workItem from="1442725448703" duration="1846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38779000" />
+    <option name="totallyTimeSpent" value="40459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -929,11 +943,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution45.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34545454">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#855#856#0" expanded="true" />
             <element signature="e#893#894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6545454">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
           </folding>
         </state>
       </provider>
