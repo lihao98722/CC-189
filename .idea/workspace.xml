@@ -23,17 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solution42.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution42.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution42.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5947826">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1003#1004#0" expanded="true" />
                 <element signature="e#1041#1042#0" expanded="true" />
                 <element signature="e#1072#1073#0" expanded="true" />
                 <element signature="e#1110#1111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution43.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution43.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.68869567">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <folding>
+                <element signature="e#2787#2788#0" expanded="true" />
+                <element signature="e#2825#2826#0" expanded="true" />
+                <element signature="e#2856#2857#0" expanded="true" />
+                <element signature="e#2894#2895#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/Chapter3/Solution33.java" />
         <option value="$PROJECT_DIR$/src/Chapter3/Solution31.java" />
         <option value="$PROJECT_DIR$/src/Chapter4/Solution42.java" />
+        <option value="$PROJECT_DIR$/src/Chapter4/Solution43.java" />
       </list>
     </option>
   </component>
@@ -182,27 +198,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Solution42">
-    <configuration default="false" name="Solution35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter3.Solution35" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CC-189" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Solution43">
     <configuration default="false" name="Solution36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -271,6 +267,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Chapter4.Solution42" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CC-189" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Solution43" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,19 +543,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Solution35" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Solution36" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solution33" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Solution31" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Solution42" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Solution36" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Solution33" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution31" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Solution42" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Solution43" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Solution42" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Solution31" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Solution33" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Solution36" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Solution35" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution43" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Solution42" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Solution31" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Solution33" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Solution36" />
       </list>
     </recent_temporary>
   </component>
@@ -556,12 +572,12 @@
       <workItem from="1442594733575" duration="212000" />
       <workItem from="1442595051501" duration="12193000" />
       <workItem from="1442630370608" duration="15244000" />
-      <workItem from="1442701097851" duration="5185000" />
+      <workItem from="1442701097851" duration="7858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32834000" />
+    <option name="totallyTimeSpent" value="35507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -873,14 +889,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution42.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5947826">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1003#1004#0" expanded="true" />
             <element signature="e#1041#1042#0" expanded="true" />
             <element signature="e#1072#1073#0" expanded="true" />
             <element signature="e#1110#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Solution43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68869567">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#2787#2788#0" expanded="true" />
+            <element signature="e#2825#2826#0" expanded="true" />
+            <element signature="e#2856#2857#0" expanded="true" />
+            <element signature="e#2894#2895#0" expanded="true" />
           </folding>
         </state>
       </provider>
