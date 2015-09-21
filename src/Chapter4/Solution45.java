@@ -12,6 +12,7 @@ public class Solution45 {
         return isValidBST(root, stk);
     }
 
+    // use stack to track values
     private static boolean isValidBST(TreeNode root, Stack<Integer> stk) {
         if (root != null) {
             if (!isValidBST(root.left, stk)) {
