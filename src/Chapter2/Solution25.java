@@ -17,6 +17,9 @@ public class Solution25 {
         sol25.printList(resultList);
     }
 
+    /* Follow up: the digits are stored in a forward order
+     * just reverse these two lists and add it up, then reverse the result.
+     */
     public ListNode sumLists(ListNode head1, ListNode head2) {
         ListNode fakeHeader = new ListNode(0);
         ListNode cur = fakeHeader;
