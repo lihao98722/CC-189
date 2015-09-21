@@ -24,6 +24,7 @@ public class Solution42 {
         if (start_pos > end_pos) {
             return null;
         }
+        // get mid pos
         int pos = start_pos + ((end_pos - start_pos) >> 1);
         TreeNode root = new TreeNode(elements[pos]);
         root.left = getMinBST(elements, start_pos, pos - 1);
