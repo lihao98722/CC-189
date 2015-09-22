@@ -5,7 +5,7 @@ package Chapter4;
  */
 public class Solution410 {
 
-    public boolean checkSubtree(TreeNode t1, TreeNode t2) {
+    public static boolean checkSubtree(TreeNode t1, TreeNode t2) {
         // assume empty tree is a subtree of any tree
         if (t2 == null) {
             return true;
@@ -16,7 +16,7 @@ public class Solution410 {
         return (t1.val == t2.val && isSameTree(t1, t2)) || checkSubtree(t1.left, t2) || checkSubtree(t1.right, t2);
     }
 
-    private boolean isSameTree(TreeNode t1, TreeNode t2) {
+    private static boolean isSameTree(TreeNode t1, TreeNode t2) {
         if (t1 == null && t2 == null) {
             return true;
         } else if (t1 == null || t2 == null) {
