@@ -14,14 +14,14 @@ public class Solution411 {
             this.size = 1;
         }
 
-        public int size() {
-            return this.size;
-        }
-
+        /*
+         * base on tree size (the number of nodes in the tree) to determine next step can
+         * make sure even probabilities on each node.
+         */
         public TreeNode<T> getRandomNode() {
-            int leftSize = left != null ? left.size() : 0;
+            int leftSize = left != null ? left.size : 0;
             Random rand = new Random();
-            int num = rand.nextInt(this.size);
+            int num = rand.nextInt(this.size);  // generate integer ranges from 0 to size - 1
             if (num < leftSize) {
                 return left.getRandomNode();
             } else if (num == leftSize) {
@@ -43,6 +43,12 @@ public class Solution411 {
                 }
             }
         }
+
+        /* Explanation for insertion and deletion:
+         *
+         * for each insertion, update size by adding "++size" to the end of insertion method.
+         * for each deletion, update size by adding "--size" to the end of deletion method.
+         */
 
         T val;
         TreeNode left;
