@@ -16,9 +16,9 @@ public class Solution47 {
         graph.addDependencies("c", "d");
         List<String> buildOrder = getBuildOrder(graph);
         System.out.println(buildOrder);
-
     }
 
+    // use topology to get possible build orders
     public static List<String> getBuildOrder(Graph graph) {
         List<String> projectsDone = new ArrayList<>();
         while (graph.size() > 0) {
@@ -36,10 +36,22 @@ public class Solution47 {
         public Graph() {
             projects = new HashMap<>();
         }
-
+        // add dependencies
         public void addDependencies(String name1, String name2) {
-            Project proj1 = projects.keySet().contains(name1)? projects.get(name1): new Project(name1);
-            Project proj2 = projects.keySet().contains(name2)? projects.get(name2): new Project(name2);
+            Project proj1 = null;
+            if (projects.keySet().contains(name1)) {
+                proj1 = projects.get(name1);
+            } else {
+                proj1 = new Project(name1);
+                projects.put(name1, proj1);
+            }
+            Project proj2 = null;
+            if (projects.keySet().contains(name2)) {
+                proj2 = projects.get(name2);
+            } else {
+                proj2 = new Project(name2);
+                projects.put(name2, proj2);
+            }
             proj2.addDependency(proj1);
         }
 
@@ -51,12 +63,14 @@ public class Solution47 {
             return projects.size();
         }
 
+        // remove dependencies (for topology)
         public void removeAllDependencies(Project proj) {
             for (Map.Entry<String, Project> entry: projects.entrySet()) {
                 entry.getValue().removeDependency(proj);
             }
         }
 
+        // get the next node to process, and remove it from graph
         public Project removeNonDependencyProject() {
             for (Map.Entry<String, Project> entry : projects.entrySet()) {
                 if (entry.getValue().getNumOfDependencies() == 0) {
