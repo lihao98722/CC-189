@@ -63,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution1007.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution1007.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter10/Solution1007.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5893588">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution1008.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter10/Solution1008.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2946794">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -122,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/Chapter10/Solution1003.java" />
         <option value="$PROJECT_DIR$/src/Chapter10/Solution1004.java" />
         <option value="$PROJECT_DIR$/src/Chapter10/Solution1007.java" />
+        <option value="$PROJECT_DIR$/src/Chapter10/Solution1008.java" />
       </list>
     </option>
   </component>
@@ -616,12 +627,12 @@
       <workItem from="1442902733068" duration="1085000" />
       <workItem from="1443036675910" duration="13879000" />
       <workItem from="1443111260700" duration="3131000" />
-      <workItem from="1443121138279" duration="4009000" />
+      <workItem from="1443121138279" duration="4584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70214000" />
+    <option name="totallyTimeSpent" value="70789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -680,13 +691,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter2/Solution24.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1038,8 +1042,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter10/Solution1007.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5893588">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter10/Solution1008.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2946794">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
