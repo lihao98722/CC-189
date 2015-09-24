@@ -34,7 +34,8 @@ public class Solution49 {
         List<List<Integer>> left_seq = getBSTSequences(root.left);
         List<List<Integer>> right_seq = getBSTSequences(root.right);
         List<Integer> seq = new ArrayList<>();
-        seq.add(root.val);  // add prefix to make sure elements in seq are in relative order
+        // add prefix to make sure elements in seq are in relative order
+        seq.add(root.val);
         for (List<Integer> left : left_seq) {
             for (List<Integer> right : right_seq) {
                 genSequences(left, 0, right, 0, seq, sequences);
