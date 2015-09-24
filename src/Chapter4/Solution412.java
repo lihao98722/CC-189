@@ -19,7 +19,7 @@ public class Solution412 {
         System.out.println(sum2);
     }
 
-    // get the number of all possible paths
+    // brute-force
     public static int countPathsWithSum(TreeNode root, final int target) {
         if (root == null) {
             return 0;
