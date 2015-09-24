@@ -1,10 +1,7 @@
 package Chapter4;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by Hao on 9/21/15.
@@ -16,26 +13,62 @@ public class Solution412 {
         root.print();
         Scanner in = new Scanner(System.in);
         int target = in.nextInt();
-        int sum = getPathsSum(root, target);
-        System.out.println(sum);
+        int sum1 = countPathsWithSum(root, target);
+        int sum2 = countPathsWithSum2(root, target);
+        System.out.println(sum1);
+        System.out.println(sum2);
     }
 
     // get the number of all possible paths
-    public static int getPathsSum(TreeNode root, final int target) {
+    public static int countPathsWithSum(TreeNode root, final int target) {
         if (root == null) {
             return 0;
         }
-        return getPaths(root, target) + getPathsSum(root.left, target) + getPathsSum(root.right, target);
+        return countRootPathsWithSum(root, target)
+                + countPathsWithSum(root.left, target)
+                + countPathsWithSum(root.right, target);
     }
 
     // get the number of paths starting from this node
-    private static int getPaths(TreeNode root, final int target) {
+    private static int countRootPathsWithSum(TreeNode root, final int target) {
         if (root == null) {
             return 0;
         }
-        int leftSum = getPaths(root.left, target - root.val);
-        int rightSum = getPaths(root.right, target - root.val);
+        int leftSum = countRootPathsWithSum(root.left, target - root.val);
+        int rightSum = countRootPathsWithSum(root.right, target - root.val);
         return leftSum + rightSum + (target == root.val? 1: 0);
+    }
+
+    /* improvement: (inspired by solutions in the book.)
+     * this brute-force approach will do a lot of unnecessary duplicate jobs.
+     * use hashmap to track partial sum will improve time complexity to O(n)
+     */
+    public static int countPathsWithSum2(TreeNode root, final int target) {
+        // deal with paths starting from the root.
+        HashMap<Integer, Integer> pathCount = new HashMap<>();
+        changePathCount(pathCount, 0, 1);
+        return countPathsWithSum2(root, pathCount, 0, target);
+    }
+
+    private static int countPathsWithSum2(TreeNode root, HashMap<Integer, Integer> pathCount, int curSum, final int target) {
+        if (root == null) {
+            return 0;
+        }
+        curSum += root.val;
+        changePathCount(pathCount, curSum, 1);
+        int total = pathCount.containsKey(curSum - target) ? pathCount.get(curSum - target) : 0;
+        total += countPathsWithSum2(root.left, pathCount, curSum, target);
+        total += countPathsWithSum2(root.right, pathCount, curSum, target);
+        changePathCount(pathCount, curSum, -1);
+        return total;
+    }
+
+    private static void changePathCount(HashMap<Integer, Integer> pathCount, int key, int num) {
+        if (!pathCount.containsKey(key)) {
+            pathCount.put(key, 1);
+        } else {
+            pathCount.put(key, pathCount.get(key) + num);
+        }
     }
 
     // create a tree randomly
