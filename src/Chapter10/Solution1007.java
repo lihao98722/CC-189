@@ -31,7 +31,11 @@ public class Solution1007 {
         return -1;
     }
 
-    /* Follow up: to be continued!
-     *
+    /* Follow up:
+     * 10MB of memory is not enough for entire bitset for all non-negative integers, so we need to apply
+     * divide and conquer here.
+     * non-negative numbers range from 0 to 2^31 - 1, can be divided into 256 segments so that each segments has
+     * 2^23 numbers, which can be hold in a 8MB bitset. Then for each segment, traverse all the numbers to find the
+     * first missing integer.
      */
 }
