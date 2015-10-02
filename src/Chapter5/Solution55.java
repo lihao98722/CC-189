@@ -5,7 +5,8 @@ package Chapter5;
  */
 public class Solution55 {
 
-    // ((n & (n - 1)) == 0) means n is an integer that has exactly one 1 in its binary form.
+    // ((n & (n - 1)) == 0) means n is an integer that has exactly one 1 in its binary form,
+    // and so n is the power of 2.
 
     public static void main(String[] args) {
         int num = 100;
