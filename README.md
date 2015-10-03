@@ -1,3 +1,3 @@
 ### Algorithm Practice
 ---
-Solutions for algorithms in Cracking the Code Interview.
+Solutions to algorithm problems.
