@@ -1,6 +1,6 @@
 package Others;
 
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by Hao on 10/20/15.
@@ -23,37 +23,17 @@ public class ValidBST {
         }
     }
 
-    public static String validBST(int[] A) {
-        int prev = 0;
-        int root = 0;
-        boolean right = false;
-        for (int num : A) {
-            if (prev == 0) {
-                prev = root = num;
-                continue;
+    public static String validBST(int[] preorder) {
+        int low = Integer.MIN_VALUE;
+        Stack<Integer> stk = new Stack<>();
+        for (int node : preorder) {
+            if (node < low) {
+                return "NO";
             }
-            if (right) {
-                if (num < prev) {
-                    return "NO";
-                } else if (num < root) {
-                    right = false;
-                    prev = root;
-                    root = num;
-                }
-            } else {
-                if (num > prev) {
-                    root = num;
-                    right = true;
-                    continue;
-                }
+            while (!stk.isEmpty() && stk.peek() < node) {
+                low = stk.pop();
             }
-            if (num > prev) {
-                right = true;
-            }
-            if (num > root) {
-                prev = root;
-                root = num;
-            }
+            stk.push(node);
         }
         return "YES";
     }
